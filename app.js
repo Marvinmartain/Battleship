@@ -9,8 +9,27 @@
 // Damage inflicted = hull (6-2=4 damage inflicted)
 // DPT of UFO = Damage output -(ussFirepower * ussAccuracy) 2.1-(5*0.7)=-1.4 the uss would have more damage to win the fight
 
+let pOne = {
+    life: 17.2,
+    hull: 4,
+    firepower: 2,
+    accuracy: 0.5,
+};
 
-let ussShip = [
+console.log(pOne);
+
+let pTwo = {
+    life: 17.2,
+    hull: 4,
+    firepower: 2,
+    accuracy: 0.5,
+};
+
+console.log(pTwo);
+
+
+
+const ussShip = [
     {
         hull: 17.2,
         firepower: 3.5,
@@ -23,7 +42,7 @@ console.log(ussShip[0].firepower);
 console.log(ussShip[0].accuracy);
 
 
-let ufoShip = [
+const ufoShip = [
     {
       hull: 4,
       firepower: 2.1,
@@ -35,7 +54,7 @@ let ufoShip = [
   console.log(ufoShip[0].firepower); 
   console.log(ufoShip[0].accuracy); 
 
-  let ufoShip2 = [
+  const ufoShip2 = [
     {
       hull: 4,
       firepower: 2.1,
@@ -47,7 +66,7 @@ let ufoShip = [
   console.log(ufoShip2[0].firepower); 
   console.log(ufoShip2[0].accuracy); 
 
-  let ufoShip3 = [
+  const ufoShip3 = [
     {
       hull: 4,
       firepower: 2.1,
@@ -59,7 +78,7 @@ let ufoShip = [
   console.log(ufoShip3[0].firepower); 
   console.log(ufoShip3[0].accuracy); 
 
-  let ufoShip4 = [
+  const ufoShip4 = [
     {
       hull: 4,
       firepower: 2.1,
@@ -71,7 +90,7 @@ let ufoShip = [
   console.log(ufoShip4[0].firepower); 
   console.log(ufoShip4[0].accuracy); 
 
-  let ufoShip5 = [
+  const ufoShip5 = [
     {
       hull: 4,
       firepower: 2.1,
@@ -83,7 +102,7 @@ let ufoShip = [
   console.log(ufoShip5[0].firepower); 
   console.log(ufoShip5[0].accuracy); 
 
-  let ufomothership = [
+  const ufomothership = [
     {
       hull: 5,
       firepower: 4,
@@ -94,3 +113,6 @@ let ufoShip = [
   console.log(ufomothership[0].hull); 
   console.log(ufomothership[0].firepower); 
   console.log(ufomothership[0].accuracy); 
+
+  
+  

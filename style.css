@@ -1,0 +1,28 @@
+.UFO {
+    border: solid aliceblue;
+    height: 42vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pOne {
+    border: solid rebeccapurple;
+    width: 20%;
+    height: 30%;
+    border-radius: 70px;
+    text-align: center;
+}
+
+
+.pTwo {
+    border: solid rgb(87, 54, 31);
+    width: 20%;
+    height: 30%;
+    border-radius: 70px;
+    text-align: center;
+}
+
+.btnHolder {
+    display: flex;
+    justify-content: space-between;
+}
