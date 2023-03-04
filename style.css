@@ -1,10 +1,41 @@
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 0 0 20px #ccc;
+    position: relative;
+  }
+  
+  .circle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, transparent 50%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0) 90%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
 body {
-    background-color: #111;
+    background-color: #09021b;
 }
 .space-ship {
-    background-color: #222;
-    width: 400px;
-    height: 300px;
+    background-color: #110505;
+    width: 500px;
+    height: 500px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 0 20px #ccc;
@@ -19,12 +50,12 @@ body {
 
 
 .pOne {
-    width: 100px;
+    width: 20px;
     height: 20px;
     background-color: #66666600;
     border-radius: 10px;
     position: absolute;
-    top: 50%;
+    top: 20%;
     right: 20%;
     transform: translate(50%, -50%);
     box-shadow: inset 0 0 5px #ccc;
@@ -50,36 +81,37 @@ body {
 
 
 .UFO {
-    border: solid aliceblue;
     height: 42vh;
     display: flex;
     justify-content: space-around;
+    
+    
 }
 
 .pOne {
-    border: solid rebeccapurple;
-    width: 20%;
-    height: 30%;
-    border-radius: 70px;
-    text-align: center;
-    top: 50%;
-    left: 20%;
+    background-color: rebeccapurple;
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+  
     transform: translate(-50%, -50%);
-    box-shadow: inset 0 0 5px #ccc;
+    box-shadow: 0 0 20px #ccc;
 }
 
 
 .pTwo {
-    border: solid rgb(87, 54, 31);
-    width: 20%;
-    height: 30%;
-    border-radius: 70px;
-    text-align: center;   
+    background-color: rgba(180, 151, 131);
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+     
    
-    top: 50%;
-    left: 20%;
+   
     transform: translate(-50%, -50%);
-    box-shadow: inset 0 0 5px #ccc;
+    box-shadow: 0 0 20px #ccc;
 }
 
 .btnHolder {

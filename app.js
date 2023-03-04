@@ -27,7 +27,14 @@ let pTwo = {
 
 console.log(pTwo);
 
+const circle = document.querySelector(".circle");
+circle.addEventListener("mouseenter", function() {
+  this.classList.add("laser");
+});
 
+circle.addEventListener("mouseleave", function() {
+  this.classList.remove("laser");
+});
 
 const ussShip = [
     {
